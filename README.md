@@ -14,7 +14,12 @@
 - [x] 이메일(Email)
 - [x] URL
 - [x] Number
+
 # How to use ?
+
+	from TxtRegex import regex
+	regex.convert(명령, Text, 대체할단어)
+
 ### CODE
 	from TxtRegex import regex
 
