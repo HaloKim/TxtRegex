@@ -1,5 +1,5 @@
 # Txt Regex
-[TxtRegex]https://pypi.org/project/TxtRegex/
+[TxtRegex](https://pypi.org/project/TxtRegex/)
 
 파이썬의 정규표현식이 어려워 자주사용하는 기능만 구현해올려놨습니다.
 
