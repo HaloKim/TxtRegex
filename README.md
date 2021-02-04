@@ -11,11 +11,9 @@
 	pip install TxtRegex
   
 ## 기능
-- 이메일(Email)
-- URL
-- 핸드폰 번호(Phone Number)
-- 계좌(Account)
-
+- [x] 이메일(Email)
+- [x] URL
+- [x] Number
 # How to use ?
 ### CODE
 	from TxtRegex import regex
@@ -47,4 +45,7 @@
 	블로그 주소는 https://github.com/HaloKim 입니다.
 	
 # Future work
-- Phone 번호와 계좌번호 분리 작업
+
+- [ ] Phone number
+
+- [ ] Account number
