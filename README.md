@@ -11,9 +11,10 @@
 	pip install TxtRegex
   
 ## 기능
-- [x] 이메일(Email)
+- [x] 이메일(E-mail)
 - [x] URL
-- [x] Number
+- [x] Number(Account & Phone)
+- [x] 괄호안 문자처리(Bracket)
 
 # How to use ?
 
