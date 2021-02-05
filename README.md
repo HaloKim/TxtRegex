@@ -17,8 +17,9 @@
 |EMAIL|이메일|
 |URL|URL|
 |NUMBER|Account, Phone|
-|BRACKET|괄호안문자처리|
-|ONLY|텍스트만 남기기|
+|BRACKET|괄호안문자 처리|
+|HTML|HTML태그 처리|
+|ONLY|텍스트만 |
 # How to use ?
 
 	from TxtRegex import regex
