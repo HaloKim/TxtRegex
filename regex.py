@@ -12,6 +12,8 @@ def convert(op, content, rep):
         elif op == "URL":
             temp[i] = re.sub(r'(http|ftp|https):\S+', rep, temp[i]).strip()
         elif op == "NUMBER":
-            temp[i] = re.sub('[0-9]+-[0-9]+-[0-9]+(-[0-9]+)?', rep, temp[i])
+            temp[i] = re.sub('[0-9]+-[0-9]+-[0-9]+(-[0-9]+)?', rep, temp[i]).strip()
+        elif op == "BRACKET":
+            temp[i] = re.sub(r'[<{(【「〖\[].*[>)}】」〗\]]', rep, temp[i]).strip()
 
     return list(filter(None, temp))
