@@ -15,5 +15,9 @@ def convert(op, content, rep):
             temp[i] = re.sub('[0-9]+-[0-9]+-[0-9]+(-[0-9]+)?', rep, temp[i]).strip()
         elif op == "BRACKET":
             temp[i] = re.sub(r'[<{(【「〖\[].*[>)}】」〗\]]', rep, temp[i]).strip()
+        elif op == "HTML":
+            temp[i] = re.sub(r'<[^>]+>', rep, temp[i]).strip()
+        elif op == "ONLY":
+            temp[i] = re.sub(r'[^ .,A-Za-z0-9가-힣]', rep, temp[i]).strip()
 
     return list(filter(None, temp))
